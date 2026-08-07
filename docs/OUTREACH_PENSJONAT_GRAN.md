@@ -15,17 +15,38 @@ Na podstawie pogłębionego audytu (*Deep Research*) i zaktualizowanych danych p
 
 ---
 
-### 2. 📱 ZAKTUALIZOWANE I SPRAWDZONE W 100% SKRYPTY SMS & WHATSAPP (Do wywoływania: `+48 601 584 872`)
+### 2. 📱 ZAKTUALIZOWANE SKRYPTY SMS & WHATSAPP (Do wywoływania: `+48 601 584 872` / `75 761 85 11`)
 
-#### ⭐ Skrypt SMS / WhatsApp (z pewnym linkiem na chmurze GitHub – Przetestowany na żywo HTTP 200!)
-> *„Dzień dobry! Zauważyłem, że Pensjonat Grań przy Kolorowej 3 ma genialną lokalizację przy stoku Pohulanka (ocena 9.3/10!), ale spora część rezerwacji przechodzi przez Booking.com z 18% prowizją (to ok. 50 000 zł straty rocznie). W agencji AAAS wdrażamy hotelom w Karpaczu oficjalne domeny `.pl` (np. pensjonatgran.pl) z ultraszybką stroną i wirtualnym recepcjonistą AI 24/7, który na czacie od ręki wyjaśnia gościom zasady parkowania przy Kolorowej, odległość do wyciągów i przyjmuje rezerwacje 0% prowizji. Przygotowaliśmy dla Państwa dedykowany projekt-demo: https://bartzx.github.io/pensjonatgran/ – Czy znajdzie Pan 5 minut na krótką rozmowę w tym tygodniu?”*
+#### ⭐ Opcja 1: Pełny Skrypt SMS / WhatsApp (z zaznaczeniem podmienienia zdjęć na finalne – Najwyższa konwersja!)
+> *„Dzień dobry! Zauważyłem, że Pensjonat Grań przy Kolorowej 3 ma genialną lokalizację przy stoku Pohulanka (ocena 9.3/10!), ale spora część rezerwacji przechodzi przez Booking.com z 18% prowizją (to ok. 50 000 zł straty rocznie). W agencji AAAS wdrażamy hotelom w Karpaczu oficjalne domeny `.pl` (np. pensjonatgran.pl) z ultraszybką stroną i wirtualnym recepcjonistą AI 24/7, który na czacie od ręki wyjaśnia gościom zasady parkowania przy Kolorowej, odległość do wyciągów i przyjmuje rezerwacje 0% prowizji. Przygotowaliśmy dla Państwa dedykowany projekt-demo: https://bartzx.github.io/pensjonatgran/ (zdjęcia w demo są podglądowe – w finalnym wdrożeniu zastąpimy je Państwa autentycznymi zdjęciami pokoi i widoku na stok!). Czy znajdzie Pan 5 minut na krótką rozmowę w tym tygodniu?”*
 
-*(Alternatywny adres dla drugiego portfolio: `https://bartzx.github.io/pensjonat-syriusz/`)*
+#### ⭐ Opcja 2: Skrócony SMS (Zwięzły i konkretny)
+> *„Dzień dobry! Pensjonat Grań przy Kolorowej 3 ma genialną lokalizację (9.3/10!), ale na Booking.com traci Pan ok. 50 000 zł rocznie na prowizjach. Wdrażamy hotelom w Karpaczu oficjalne domeny `.pl` z szybką stroną i recepcją AI 24/7 (0% prowizji). Zrobiliśmy dla Państwa dedykowane demo: https://bartzx.github.io/pensjonatgran/ (zdjęcia są podglądowe – w wersji finalnej zastąpimy je Państwa realnymi fotografiami obiektu). Kiedy pasuje Panu 5 minut na krótki telefon?”*
 
 ---
 
-### 3. 🖼️ 100% Autorska Oprawa Wizualna (0% Cudzych Zdjęć)
-Wszystkie zdjęcia na stronach-demo (tło gier, pokoje dwuosobowe, jadalnia z kominkiem, ogród) zostały **wygnerowane sztuczną inteligencją na własność naszej agencji**. Nie używamy cudzych zdjęć z Unsplash ani portali stockowych – masz pełną niezależność prawną i autorską!
+### 3. 📨 Poprawiony Skrypt E-mail Cold Outreach
+> **Temat:** Jak Pensjonat Grań może zaoszczędzić 51 800 zł na prowizjach Booking.com (demo z rezerwacją 24/7)  
+>  
+> **Dzień dobry,**  
+>  
+> Piszę do Państwa jako właścicieli **Pensjonatu Grań przy ul. Kolorowej 3**. Gratuluję znakomitego położenia – lokalizacja tuż przy stoku Pohulanka (ocena 9.3/10) to ogromny atut, który w sezonie przyciąga setki narciarzy i turystów.  
+>  
+> Zauważyliśmy jednak w analizie rynkowej, że większość Państwa gości rezerwuje pobyt przez platformy takie jak Booking.com, co przy Państwa 30 pokojach oznacza oddawanie pośrednikom około **51 840,00 zł rocznie** w samych prowizjach. Dodatkowo Państwa telefon recepcyjny nieustannie dzwoni z pytaniami o miejsca parkingowe na Kolorowej i godziny śniadań.  
+>  
+> W naszej agencji **AAAS** pomagamy hotelom w Karpaczu przejąć te pieniądze dla siebie. Przygotowaliśmy dla Państwa obiektów:  
+> 1. **Nowoczesną, bezprowizyjną stronę internetową na własnej domenie `.pl` (np. `pensjonatgran.pl`)**, działającą 3x szybciej od standardowych serwisów.  
+> 2. **Wirtualnego Recepcjonistę AI 24/7**, który na stronie natychmiast odpowiada gościom na pytania o parking (darmowy vs. 15 zł/dobę), stok narciarski, śniadania i wylicza cenę pobytu w 3 sekundy.  
+>  
+> Stworzyliśmy już działające na żywo wdrożenie-demo dla Państwa obiektu:  
+> 👉 **[https://bartzx.github.io/pensjonatgran/](https://bartzx.github.io/pensjonatgran/)**  
+> *(Uwaga: W projekcie-demo wykorzystaliśmy zdjęcia podglądowe – w finalnym wdrożeniu zastąpimy je Państwa autentycznymi fotografiami fasady, pokoi i widoku na stok Kolorowa!)*  
+>  
+> Czy moglibyśmy umówić się na 10-minutową rozmowę telefoniczną w tym tygodniu, abym pokazał Państwu, jak wdrożyć identyczny system w Pensjonacie Grań i wygenerować **+3 250 zł czystego zysku miesięcznie**?  
+>  
+> Z poważaniem,  
+> **[Twoje Imię / BartzX]**  
+> AAAS Agency – AI Automation for Hospitality  
 
 ---
 
