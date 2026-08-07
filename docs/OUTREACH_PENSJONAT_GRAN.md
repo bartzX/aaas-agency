@@ -1,7 +1,7 @@
 # Pakiet Sprzedażowy i Skrypty Handlowe (Outreach Kit) 🎯
 ## Cel Komercyjny #1: **Pensjonat Grań w Karpaczu (`ul. Kolorowa 3`)**
 
-Na podstawie pogłębionego audytu (*Deep Research*) i konsultacji z agentami AI z Twojego repozytorium przygotowałem kompletny zestaw handlowy dla Twojego pierwszego klienta – **Pensjonatu Grań**. Poniżej znajdziesz poprawione skrypty wiadomości SMS/WhatsApp i E-mail oparte o **pierwszy, zwalidowany projekt na żywo**, który działa na 100% telefonów w Polsce.
+Na podstawie pogłębionego audytu (*Deep Research*) i zaktualizowanych danych przygotowałem kompletny zestaw handlowy dla Twojego pierwszego klienta – **Pensjonatu Grań**. Poniżej znajdziesz poprawione skrypty wiadomości SMS/WhatsApp i E-mail oparte o **twój główny, działający projekt ze zmienioną nazwą na Pensjonat Grań**.
 
 ---
 
@@ -17,8 +17,10 @@ Na podstawie pogłębionego audytu (*Deep Research*) i konsultacji z agentami AI
 
 ### 2. 📱 ZAKTUALIZOWANE SKRYPTY SMS & WHATSAPP (Do wywoływania: `+48 601 584 872` / `75 761 85 11`)
 
-#### ⭐ Skrypt SMS / WhatsApp (z PIERWSZYM, w 100% działającym projektem – Najwyższa konwersja!)
+#### ⭐ Skrypt SMS / WhatsApp (z linkiem na działającym projekcie ze zmienioną nazwą na Pensjonat Grań – Najwyższa konwersja!)
 > *„Dzień dobry! Zauważyłem, że Pensjonat Grań przy Kolorowej 3 ma genialną lokalizację przy stoku Pohulanka (ocena 9.3/10!), ale spora część rezerwacji przechodzi przez Booking.com z 18% prowizją (to ok. 50 000 zł straty rocznie). W agencji AAAS wdrażamy hotelom i pensjonatom w całej Polsce oficjalne domeny `.pl` (np. pensjonatgran.pl) z ultraszybką stroną i wirtualnym recepcjonistą AI 24/7, który na czacie od ręki wyjaśnia gościom zasady parkowania przy Kolorowej, odległość do wyciągów i przyjmuje rezerwacje 0% prowizji. Przygotowaliśmy dla Państwa dedykowany projekt-demo: https://bartzx.github.io/Projekt/ (zdjęcia w demo są podglądowe – w finalnym wdrożeniu zastąpimy je Państwa autentycznymi zdjęciami pokoi i widoku na stok!). Czy znajdzie Pan 5 minut na krótką rozmowę w tym tygodniu?”*
+
+*(Alternatywny adres do wyboru z nazwą w linku: `https://bartzx.github.io/hotel-gran/`)*
 
 ---
 
