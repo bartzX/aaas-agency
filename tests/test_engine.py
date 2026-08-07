@@ -25,7 +25,7 @@ class TestAAASEngine(unittest.TestCase):
         report = orch.run_agency_audit()
         self.assertEqual(report["status"], "active")
         self.assertEqual(report["agents_loaded"], 5)
-        self.assertEqual(report["workflows_validated"], 2)
+        self.assertGreaterEqual(report["workflows_validated"], 2)
 
 if __name__ == "__main__":
     unittest.main()

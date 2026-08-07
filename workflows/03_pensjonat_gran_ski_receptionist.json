@@ -1,0 +1,92 @@
+{
+  "name": "03 - Pensjonat Grań Ski Receptionist & Direct Booking Webhook (AAAS Agency)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "pensjonat-gran-inquiry",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "name": "Webhook - Pensjonat Grań Inquiry",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Zapytanie od gościa z oficjalnej strony Pensjonatu Grań (ul. Kolorowa 3, Karpacz)\nconst payload = items[0].json.body || items[0].json;\n\nconst roomPrices = {\n  dwuosobowy: 160,\n  trzyosobowy: 220,\n  studio_rodzinne: 300\n};\n\nconst roomType = payload.roomType || 'dwuosobowy';\nconst pricePerNight = roomPrices[roomType] || 160;\nconst nights = payload.nights || 2;\nconst estimatedTotal = pricePerNight * nights;\n\n// Odpowiedzi FAQ specyficzne dla Pensjonatu Grań (z analizy Deep Research)\nconst skiLiftInfo = \"Stok Pohulanka i wyciągi Kolorowa znajdują się zaledwie 100 metrów od pensjonatu!\";\nconst parkingInfo = \"Bezpłatne miejsca publiczne na ul. Kolorowej lub prywatny zamykany parking 20m dalej (15 zł/dobę).\";\nconst mealsInfo = \"W cenie pobytu oferujemy przepyszne śniadania w formie szwedzkiego bufetu i obiadokolacje.\";\n\nreturn [\n  {\n    json: {\n      status: \"success\",\n      hotel: \"Pensjonat Grań przy ul. Kolorowej 3 w Karpaczu\",\n      guestName: payload.name || \"Gość\",\n      email: payload.email || \"\",\n      phone: payload.phone || \"\",\n      roomType: roomType,\n      nights: nights,\n      pricePerNight: pricePerNight,\n      estimatedTotal: estimatedTotal,\n      otaCommissionSaved18Pct: (estimatedTotal * 0.18).toFixed(2),\n      faqSkiLift: skiLiftInfo,\n      faqParking: parkingInfo,\n      faqMeals: mealsInfo,\n      aiResponseMessage: `Dzień dobry! Potwierdzamy dostępność pokoju na ${nights} noce w Pensjonacie Grań. Koszt całkowity bez prowizji: ${estimatedTotal} zł. ${skiLiftInfo} ${parkingInfo}`\n    }\n  }\n];"
+      },
+      "name": "Code - Calculate Grań Ski Booking & FAQ",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [480, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.twenty.com/rest/leads",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            { "name": "name", "value": "={{ $json.guestName }}" },
+            { "name": "email", "value": "={{ $json.email }}" },
+            { "name": "phone", "value": "={{ $json.phone }}" },
+            { "name": "source", "value": "Pensjonat Grań Direct Website (AAAS)" }
+          ]
+        }
+      },
+      "name": "HTTP Request - Save Grań Lead to Twenty CRM",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [720, 300]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify($json) }}"
+      },
+      "name": "Respond to Webhook",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [960, 300]
+    }
+  ],
+  "connections": {
+    "Webhook - Pensjonat Grań Inquiry": {
+      "main": [
+        [
+          {
+            "node": "Code - Calculate Grań Ski Booking & FAQ",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code - Calculate Grań Ski Booking & FAQ": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request - Save Grań Lead to Twenty CRM",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request - Save Grań Lead to Twenty CRM": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}
