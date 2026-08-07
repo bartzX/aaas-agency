@@ -15,38 +15,17 @@ Na podstawie pogłębionego audytu (*Deep Research*) i zaktualizowanych danych p
 
 ---
 
-### 2. 📱 ZAKTUALIZOWANE I POPRAWIONE SKRYPTY SMS & WHATSAPP (Do wywoływania: `+48 601 584 872`)
+### 2. 📱 ZAKTUALIZOWANE I SPRAWDZONE W 100% SKRYPTY SMS & WHATSAPP (Do wywoływania: `+48 601 584 872`)
 
-#### ⭐ Skrypt 1: SMS / WhatsApp (z profesjonalną krótką domeną – Najwyższa konwersja!)
-> *„Dzień dobry! Zauważyłem, że Pensjonat Grań przy Kolorowej 3 ma genialną lokalizację przy stoku Pohulanka (ocena 9.3/10!), ale spora część rezerwacji przechodzi przez Booking.com z 18% prowizją (to ok. 50 000 zł straty rocznie). W agencji AAAS wdrażamy hotelom w Karpaczu oficjalne domeny `.pl` (np. pensjonatgran.pl) z ultraszybką stroną i wirtualnym recepcjonistą AI 24/7, który na czacie od ręki wyjaśnia gościom zasady parkowania przy Kolorowej, odległość do wyciągów i przyjmuje rezerwacje 0% prowizji. Nasza strona-demo dla Karpacza na czystej domenie: https://pensjonat-syriusz.surge.sh – Czy znajdzie Pan 5 minut na krótką rozmowę w tym tygodniu?”*
+#### ⭐ Skrypt 1: SMS / WhatsApp (z profesjonalnym linkiem – Przetestowany na żywo HTTP 200!)
+> *„Dzień dobry! Zauważyłem, że Pensjonat Grań przy Kolorowej 3 ma genialną lokalizację przy stoku Pohulanka (ocena 9.3/10!), ale spora część rezerwacji przechodzi przez Booking.com z 18% prowizją (to ok. 50 000 zł straty rocznie). W agencji AAAS wdrażamy hotelom w Karpaczu oficjalne domeny `.pl` (np. pensjonatgran.pl) z ultraszybką stroną i wirtualnym recepcjonistą AI 24/7, który na czacie od ręki wyjaśnia gościom zasady parkowania przy Kolorowej, odległość do wyciągów i przyjmuje rezerwacje 0% prowizji. Nasza strona-demo dla Karpacza na czystej domenie: https://pensjonatsyriusz.surge.sh – Czy znajdzie Pan 5 minut na krótką rozmowę w tym tygodniu?”*
 
-#### ⭐ Skrypt 2: Krótki Follow-up SMS (Wysyłany po 48h w razie braku odpowiedzi)
-> *„Dzień dobry, piszę w nawiązaniu do wiadomości o automatyzacji rezerwacji dla Pensjonatu Grań. Chętnie pokażę na bezpłatnym 10-minutowym demo na żywo, jak wirtualna recepcja AI odciąży Pana telefon o 70% w szczycie sezonu zimowego i pozwoli zaoszczędzić ponad 4 000 zł miesięcznie na prowizjach. Kiedy pasuje Panu krótki telefon?”*
+*(Możesz też użyć linku spersonalizowanego pod Grań: `https://pensjonatgran.surge.sh` lub oficjalnego GitHub Pages: `https://bartzx.github.io/Projekt/`)*
 
 ---
 
-### 3. 📨 Poprawiony Skrypt E-mail Cold Outreach
-> **Temat:** Jak Pensjonat Grań może zaoszczędzić 51 800 zł na prowizjach Booking.com (i zautomatyzować pytania o parking/stok na domenie .pl)  
->  
-> **Dzień dobry,**  
->  
-> Piszę do Państwa jako właścicieli **Pensjonatu Grań przy ul. Kolorowej 3**. Gratuluję znakomitego położenia – lokalizacja tuż przy stoku Pohulanka (ocena 9.3/10) to ogromny atut, który w sezonie przyciąga setki narciarzy i turystów.  
->  
-> Zauważyliśmy jednak w analizie rynkowej, że większość Państwa gości rezerwuje pobyt przez platformy takie jak Booking.com, co przy Państwa 30 pokojach oznacza oddawanie pośrednikom około **51 840,00 zł rocznie** w samych prowizjach. Dodatkowo Państwa telefon recepcyjny nieustannie dzwoni z pytaniami o miejsca parkingowe na Kolorowej i godziny śniadań.  
->  
-> W naszej agencji **AAAS** pomagamy hotelom w Karpaczu przejąć te pieniądze dla siebie. Przygotowaliśmy dla Państwa obiektów:  
-> 1. **Nowoczesną, bezprowizyjną stronę internetową na własnej domenie `.pl` (np. `pensjonatgran.pl`)**, działającą 3x szybciej od standardowych serwisów.  
-> 2. **Wirtualnego Recepcjonistę AI 24/7**, który na stronie natychmiast odpowiada gościom na pytania o parking (darmowy vs. 15 zł/dobę), stok narciarski, śniadania i wylicza cenę pobytu w 3 sekundy.  
->  
-> Stworzyliśmy już działające na żywo wdrożenie dla innego obiektu w Karpaczu:  
-> 👉 **[https://pensjonat-syriusz.surge.sh](https://pensjonat-syriusz.surge.sh)**  
-> *(Alternatywny link GitHub: https://bartzx.github.io/Projekt/)*  
->  
-> Czy moglibyśmy umówić się na 10-minutową rozmowę telefoniczną w tym tygodniu, abym pokazał Państwu, jak wdrożyć identyczny system w Pensjonacie Grań i wygenerować **+3 250 zł czystego zysku miesięcznie**?  
->  
-> Z poważaniem,  
-> **[Twoje Imię / BartzX]**  
-> AAAS Agency – AI Automation for Hospitality  
+### 3. 🖼️ 100% Autorska Oprawa Wizualna (0% Cudzych Zdjęć)
+Wszystkie zdjęcia na stronach-demo (tło gier, pokoje dwuosobowe, jadalnia z kominkiem, ogród) zostały **wygnerowane sztuczną inteligencją na własność naszej agencji**. Nie używamy cudzych zdjęć z Unsplash ani portali stockowych – masz pełną niezależność prawną i autorską!
 
 ---
 
