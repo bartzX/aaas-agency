@@ -1,7 +1,7 @@
 # Pakiet Sprzedażowy i Skrypty Handlowe (Outreach Kit) 🎯
 ## Cel Komercyjny #1: **Pensjonat Grań w Karpaczu (`ul. Kolorowa 3`)**
 
-Na podstawie pogłębionego audytu (*Deep Research*) przygotowałem kompletny zestaw handlowy dla Twojego pierwszego klienta – **Pensjonatu Grań**. Poniżej znajdziesz gotowe skrypty wiadomości (E-mail / SMS / WhatsApp), analizę słabych punktów, dedykowaną architekturę n8n oraz wyliczenie ROI do przedstawienia właścicielowi.
+Na podstawie pogłębionego audytu (*Deep Research*) i zaktualizowanych danych przygotowałem kompletny zestaw handlowy dla Twojego pierwszego klienta – **Pensjonatu Grań**. Poniżej znajdziesz poprawione skrypty wiadomości SMS/WhatsApp i E-mail, analizę słabych punktów, dedykowaną architekturę n8n oraz wyliczenie ROI do przedstawienia właścicielowi.
 
 ---
 
@@ -15,25 +15,33 @@ Na podstawie pogłębionego audytu (*Deep Research*) przygotowałem kompletny ze
 
 ---
 
-### 2. 📨 Gotowe Skrypty Wiadomości Handlowych (Do wywoływania: `+48 601 584 872` lub e-mail)
+### 2. 📱 ZAKTUALIZOWANE I POPRAWIONE SKRYPTY SMS & WHATSAPP (Do wywoływania: `+48 601 584 872`)
 
-#### Opcja A: E-mail Cold Outreach (Profesjonalny, bezpośredni, oparty o liczby)
-> **Temat:** Jak Pensjonat Grań może zaoszczędzić 50 000 zł na prowizjach Booking.com (i zautomatyzować pytania o parking/stok)  
+#### ⭐ Skrypt 1: SMS / WhatsApp (Bezpośredni, oparty o liczby i domenę `.pl` – Najwyższa konwersja!)
+> *„Dzień dobry! Zauważyłem, że Pensjonat Grań przy Kolorowej 3 ma genialną lokalizację przy stoku Pohulanka (ocena 9.3/10!), ale spora część rezerwacji przechodzi przez Booking.com z 18% prowizją (to ok. 50 000 zł straty rocznie). W agencji AAAS wdrażamy hotelom w Karpaczu oficjalne domeny `.pl` (np. pensjonatgran.pl) z ultraszybką stroną i wirtualnym recepcjonistą AI 24/7, który na czacie od ręki wyjaśnia gościom zasady parkowania przy Kolorowej, odległość do wyciągów i przyjmuje rezerwacje 0% prowizji. Nasze wdrożenie-demo dla Karpacza: https://bartzx.github.io/Projekt/ – Czy znajdzie Pan 5 minut na krótką rozmowę w tym tygodniu?”*
+
+#### ⭐ Skrypt 2: Krótki Follow-up SMS (Wysyłany po 48h w razie braku odpowiedzi)
+> *„Dzień dobry, piszę w nawiązaniu do wiadomości o automatyzacji rezerwacji dla Pensjonatu Grań. Chętnie pokażę na bezpłatnym 10-minutowym demo na żywo, jak wirtualna recepcja AI odciąży Pana telefon o 70% w szczycie sezonu zimowego i pozwoli zaoszczędzić ponad 4 000 zł miesięcznie na prowizjach. Kiedy pasuje Panu krótki telefon?”*
+
+---
+
+### 3. 📨 Poprawiony Skrypt E-mail Cold Outreach
+> **Temat:** Jak Pensjonat Grań może zaoszczędzić 51 800 zł na prowizjach Booking.com (i zautomatyzować pytania o parking/stok na domenie .pl)  
 >  
 > **Dzień dobry,**  
 >  
 > Piszę do Państwa jako właścicieli **Pensjonatu Grań przy ul. Kolorowej 3**. Gratuluję znakomitego położenia – lokalizacja tuż przy stoku Pohulanka (ocena 9.3/10) to ogromny atut, który w sezonie przyciąga setki narciarzy i turystów.  
 >  
-> Zauważyliśmy jednak w analizie rynkowej, że większość Państwa gości rezerwuje pobyt przez platformy takie jak Booking.com, co przy Państwa 30 pokojach oznacza oddawanie pośrednikom około **50 000 – 60 000 zł rocznie** w samych prowizjach. Dodatkowo Państwa telefon recepcyjny nieustannie dzwoni z pytaniami o miejsca parkingowe na Kolorowej i godziny śniadań.  
+> Zauważyliśmy jednak w analizie rynkowej, że większość Państwa gości rezerwuje pobyt przez platformy takie jak Booking.com, co przy Państwa 30 pokojach oznacza oddawanie pośrednikom około **51 840,00 zł rocznie** w samych prowizjach. Dodatkowo Państwa telefon recepcyjny nieustannie dzwoni z pytaniami o miejsca parkingowe na Kolorowej i godziny śniadań.  
 >  
 > W naszej agencji **AAAS** pomagamy hotelom w Karpaczu przejąć te pieniądze dla siebie. Przygotowaliśmy dla Państwa obiektów:  
-> 1. **Nowoczesną, bezprowizyjną stronę internetową** (działa 3x szybciej od standardowych serwisów, z gotowym modułem rezerwacji bezpośredniej).  
+> 1. **Nowoczesną, bezprowizyjną stronę internetową na własnej domenie `.pl` (np. `pensjonatgran.pl`)**, działającą 3x szybciej od standardowych serwisów.  
 > 2. **Wirtualnego Recepcjonistę AI 24/7**, który na stronie natychmiast odpowiada gościom na pytania o parking (darmowy vs. 15 zł/dobę), stok narciarski, śniadania i wylicza cenę pobytu w 3 sekundy.  
 >  
 > Stworzyliśmy już działające na żywo wdrożenie dla innego obiektu w Karpaczu:  
 > 👉 **[https://bartzx.github.io/Projekt/](https://bartzx.github.io/Projekt/)**  
 >  
-> Czy moglibyśmy umówić się na 10-minutową rozmowę telefoniczną w tym tygodniu, abym pokazał Państwu, jak wdrożyć identyczny system w Pensjonacie Grań i wygenerować **+3 000 zł czystego zysku miesięcznie**?  
+> Czy moglibyśmy umówić się na 10-minutową rozmowę telefoniczną w tym tygodniu, abym pokazał Państwu, jak wdrożyć identyczny system w Pensjonacie Grań i wygenerować **+3 250 zł czystego zysku miesięcznie**?  
 >  
 > Z poważaniem,  
 > **[Twoje Imię / BartzX]**  
@@ -41,23 +49,9 @@ Na podstawie pogłębionego audytu (*Deep Research*) przygotowałem kompletny ze
 
 ---
 
-#### Opcja B: Krótszy skrypt SMS / WhatsApp (Dla szybkiego kontaktu z komórki właściciela)
-> *„Dzień dobry! Zauważyłem, że Pensjonat Grań przy Kolorowej 3 ma genialną lokalizację przy stoku (9.3/10!), ale spora część rezerwacji przechodzi przez Booking.com z 18% prowizją. W naszej agencji stworzyliśmy system, który daje hotelom w Karpaczu własną, szybką stronę ze sztuczną inteligencją odpowiadającą gościom 24/7 (m.in. o parking i wyciągi) i oszczędza ok. 4 000 zł miesięcznie na prowizjach. Demo naszego wdrożenia w Karpaczu: https://bartzx.github.io/Projekt/ – Czy znajdzie Pan 5 minut na krótką rozmowę w tym tygodniu?”*
-
----
-
-### 3. 💰 Twarde Wyliczenie ROI dla Pensjonatu Grań (Do pokazania na rozmowie)
+### 4. 💰 Twarde Wyliczenie ROI dla Pensjonatu Grań (Do pokazania na rozmowie)
 Przy 30 pokojach i średniej cenie pokoju ok. 220 zł / doba:
 * **Przychód z rezerwacji bezpośrednich (np. 30 rezerwacji w miesiącu po 880 zł):** 26 400,00 zł
 * **Prowizja 18% zaoszczędzona (nieoddana dla Booking.com):** **4 752,00 zł / miesiąc**
 * **Koszt Twojego Pełnego Abonamentu AAAS (MRR):** **1 499,00 zł / miesiąc**
 * **Czysty zysk netto dla Właściciela Pensjonatu Grań:** **+3 253,00 zł w kieszeni co miesiąc** (ok. **+39 036,00 zł rocznie** na czysto!).
-
----
-
-### 4. 🤖 Dedykowany Scenariusz n8n dla Pensjonatu Grań (`workflows/03_pensjonat_gran_ski_receptionist.json`)
-W katalogu `/workflows` przygotowałem specjalny plik JSON gotowy na wdrożenie dla Pensjonatu Grań, który automatycznie:
-1. Oblicza cenę pokoju (2-osobowy, 3-osobowy, studio).
-2. Udziela gościom precyzyjnej informacji o **parkingu przy Kolorowej** (darmowy na ulicy lub 15 zł za rezerwowany 20 m dalej).
-3. Informuje o bliskości stoku narciarskiego i letnich torów na Pohulance.
-4. Wysyła SMS/Telegram do właściciela po każdej rezerwacji.
