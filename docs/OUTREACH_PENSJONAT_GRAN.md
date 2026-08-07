@@ -15,12 +15,13 @@ Na podstawie pogłębionego audytu (*Deep Research*) i zaktualizowanych danych p
 
 ---
 
-### 2. 📱 ZAKTUALIZOWANE I SPRAWDZONE W 100% SKRYPTY SMS & WHATSAPP (Do wywoływania: `+48 601 584 872`)
+### 2. 📱 SKRYPTY SMS & WHATSAPP (Do wywoływania: `+48 601 584 872`) – 2 OPCJE DOMENOWE
 
-#### ⭐ Skrypt 1: SMS / WhatsApp (z profesjonalnym linkiem – Przetestowany na żywo HTTP 200!)
-> *„Dzień dobry! Zauważyłem, że Pensjonat Grań przy Kolorowej 3 ma genialną lokalizację przy stoku Pohulanka (ocena 9.3/10!), ale spora część rezerwacji przechodzi przez Booking.com z 18% prowizją (to ok. 50 000 zł straty rocznie). W agencji AAAS wdrażamy hotelom w Karpaczu oficjalne domeny `.pl` (np. pensjonatgran.pl) z ultraszybką stroną i wirtualnym recepcjonistą AI 24/7, który na czacie od ręki wyjaśnia gościom zasady parkowania przy Kolorowej, odległość do wyciągów i przyjmuje rezerwacje 0% prowizji. Nasza strona-demo dla Karpacza na czystej domenie: https://pensjonatsyriusz.surge.sh – Czy znajdzie Pan 5 minut na krótką rozmowę w tym tygodniu?”*
+#### ⭐ Opcja 1: Z linkiem gotowym od ręki (Bez konieczności wykupywania domeny klienta przed SMS-em)
+> *„Dzień dobry! Zauważyłem, że Pensjonat Grań przy Kolorowej 3 ma genialną lokalizację przy stoku Pohulanka (ocena 9.3/10!), ale spora część rezerwacji przechodzi przez Booking.com z 18% prowizją (to ok. 50 000 zł straty rocznie). W agencji AAAS wdrażamy hotelom w Karpaczu nowoczesne domeny z ultraszybką stroną i wirtualnym recepcjonistą AI 24/7, który na czacie od ręki wyjaśnia gościom zasady parkowania przy Kolorowej, odległość do wyciągów i przyjmuje rezerwacje 0% prowizji. Nasza strona-demo dla Karpacza: https://pensjonatgran.surge.sh – Czy znajdzie Pan 5 minut na krótką rozmowę w tym tygodniu?”*
 
-*(Możesz też użyć linku spersonalizowanego pod Grań: `https://pensjonatgran.surge.sh` lub oficjalnego GitHub Pages: `https://bartzx.github.io/Projekt/`)*
+#### ⭐ Opcja 2: Z domeną `pensjonatgran.com` (Jeśli zarejestrujesz domenę klienta u rejestratora za ~40 zł)
+> *„Dzień dobry! Zauważyłem, że Pensjonat Grań przy Kolorowej 3 ma genialną lokalizację przy stoku Pohulanka (ocena 9.3/10!), ale spora część rezerwacji przechodzi przez Booking.com z 18% prowizją (to ok. 50 000 zł straty rocznie). W agencji AAAS wdrażamy hotelom w Karpaczu oficjalne domeny komercyjne (np. pensjonatgran.com) z ultraszybką stroną i wirtualnym recepcjonistą AI 24/7, który na czacie od ręki wyjaśnia gościom zasady parkowania przy Kolorowej, odległość do wyciągów i przyjmuje rezerwacje 0% prowizji. Nasza strona-demo dla Karpacza: https://pensjonatgran.com – Czy znajdzie Pan 5 minut na krótką rozmowę w tym tygodniu?”*
 
 ---
 
