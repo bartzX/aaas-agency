@@ -17,8 +17,8 @@ Na podstawie pogłębionego audytu (*Deep Research*) i zaktualizowanych danych p
 
 ### 2. 📱 ZAKTUALIZOWANE I POPRAWIONE SKRYPTY SMS & WHATSAPP (Do wywoływania: `+48 601 584 872`)
 
-#### ⭐ Skrypt 1: SMS / WhatsApp (Bezpośredni, oparty o liczby i domenę `.pl` – Najwyższa konwersja!)
-> *„Dzień dobry! Zauważyłem, że Pensjonat Grań przy Kolorowej 3 ma genialną lokalizację przy stoku Pohulanka (ocena 9.3/10!), ale spora część rezerwacji przechodzi przez Booking.com z 18% prowizją (to ok. 50 000 zł straty rocznie). W agencji AAAS wdrażamy hotelom w Karpaczu oficjalne domeny `.pl` (np. pensjonatgran.pl) z ultraszybką stroną i wirtualnym recepcjonistą AI 24/7, który na czacie od ręki wyjaśnia gościom zasady parkowania przy Kolorowej, odległość do wyciągów i przyjmuje rezerwacje 0% prowizji. Nasze wdrożenie-demo dla Karpacza: https://bartzx.github.io/Projekt/ – Czy znajdzie Pan 5 minut na krótką rozmowę w tym tygodniu?”*
+#### ⭐ Skrypt 1: SMS / WhatsApp (z profesjonalną krótką domeną – Najwyższa konwersja!)
+> *„Dzień dobry! Zauważyłem, że Pensjonat Grań przy Kolorowej 3 ma genialną lokalizację przy stoku Pohulanka (ocena 9.3/10!), ale spora część rezerwacji przechodzi przez Booking.com z 18% prowizją (to ok. 50 000 zł straty rocznie). W agencji AAAS wdrażamy hotelom w Karpaczu oficjalne domeny `.pl` (np. pensjonatgran.pl) z ultraszybką stroną i wirtualnym recepcjonistą AI 24/7, który na czacie od ręki wyjaśnia gościom zasady parkowania przy Kolorowej, odległość do wyciągów i przyjmuje rezerwacje 0% prowizji. Nasza strona-demo dla Karpacza na czystej domenie: https://pensjonat-syriusz.surge.sh – Czy znajdzie Pan 5 minut na krótką rozmowę w tym tygodniu?”*
 
 #### ⭐ Skrypt 2: Krótki Follow-up SMS (Wysyłany po 48h w razie braku odpowiedzi)
 > *„Dzień dobry, piszę w nawiązaniu do wiadomości o automatyzacji rezerwacji dla Pensjonatu Grań. Chętnie pokażę na bezpłatnym 10-minutowym demo na żywo, jak wirtualna recepcja AI odciąży Pana telefon o 70% w szczycie sezonu zimowego i pozwoli zaoszczędzić ponad 4 000 zł miesięcznie na prowizjach. Kiedy pasuje Panu krótki telefon?”*
@@ -39,7 +39,8 @@ Na podstawie pogłębionego audytu (*Deep Research*) i zaktualizowanych danych p
 > 2. **Wirtualnego Recepcjonistę AI 24/7**, który na stronie natychmiast odpowiada gościom na pytania o parking (darmowy vs. 15 zł/dobę), stok narciarski, śniadania i wylicza cenę pobytu w 3 sekundy.  
 >  
 > Stworzyliśmy już działające na żywo wdrożenie dla innego obiektu w Karpaczu:  
-> 👉 **[https://bartzx.github.io/Projekt/](https://bartzx.github.io/Projekt/)**  
+> 👉 **[https://pensjonat-syriusz.surge.sh](https://pensjonat-syriusz.surge.sh)**  
+> *(Alternatywny link GitHub: https://bartzx.github.io/Projekt/)*  
 >  
 > Czy moglibyśmy umówić się na 10-minutową rozmowę telefoniczną w tym tygodniu, abym pokazał Państwu, jak wdrożyć identyczny system w Pensjonacie Grań i wygenerować **+3 250 zł czystego zysku miesięcznie**?  
 >  
