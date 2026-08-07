@@ -1,0 +1,67 @@
+{
+  "name": "02 - Competitor Price Monitor & Deep Research Schedule (AAAS Agency)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "weeks",
+              "weeksInterval": 1
+            }
+          ]
+        }
+      },
+      "name": "Schedule - Weekly Audit",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1,
+      "position": [200, 300]
+    },
+    {
+      "parameters": {
+        "url": "https://api.crawl4ai.open/scrape",
+        "method": "POST",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\"target\": \"booking_karpacz_competitors\", \"depth\": 1}"
+      },
+      "name": "Crawl4AI - Check Competitor Rates",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [440, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "return [{\n  json: {\n    reportTitle: \"Tygodniowy Raport Konkurencji Karpacz\",\n    avgPrice: 220,\n    ourPrice: 180,\n    advantage: \"Nasza cena bezpośrednia jest niższa o 40 zł przy jednoczesnym braku opłat za zwierzęta!\"\n  }\n}];"
+      },
+      "name": "Code - Synthesize Deep Research Report",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [680, 300]
+    }
+  ],
+  "connections": {
+    "Schedule - Weekly Audit": {
+      "main": [
+        [
+          {
+            "node": "Crawl4AI - Check Competitor Rates",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Crawl4AI - Check Competitor Rates": {
+      "main": [
+        [
+          {
+            "node": "Code - Synthesize Deep Research Report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

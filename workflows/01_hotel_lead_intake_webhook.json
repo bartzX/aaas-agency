@@ -1,0 +1,92 @@
+{
+  "name": "01 - Hotel Lead Intake & AI Receptionist Webhook (AAAS Agency)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "hotel-booking-inquiry",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "name": "Webhook - New Booking Inquiry",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Przyjmowanie danych ze strony hotelu (np. Pensjonat Syriusz)\nconst payload = items[0].json.body || items[0].json;\n\nconst roomPrices = {\n  dwuosobowy: 180,\n  trzyosobowy: 250,\n  studio: 340\n};\n\nconst roomType = payload.roomType || 'dwuosobowy';\nconst pricePerNight = roomPrices[roomType] || 180;\n\n// Kalkulacja szacunkowej ceny\nconst estimatedTotal = pricePerNight * 2; // Domyślnie 2 doby\n\nreturn [\n  {\n    json: {\n      status: \"success\",\n      hotel: \"Pensjonat Syriusz\",\n      guestName: payload.name || \"Gość\",\n      email: payload.email || \"\",\n      phone: payload.phone || \"\",\n      roomType: roomType,\n      pricePerNight: pricePerNight,\n      estimatedTotal: estimatedTotal,\n      petsPolicy: \"0 zł dopłaty (Gratis)\",\n      message: `Wstępna rezerwacja zarejestrowana. Szacowany koszt: ${estimatedTotal} zł.`\n    }\n  }\n];"
+      },
+      "name": "Code - Calculate Price & Format Lead",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [480, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.twenty.com/rest/leads",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            { "name": "name", "value": "={{ $json.guestName }}" },
+            { "name": "email", "value": "={{ $json.email }}" },
+            { "name": "phone", "value": "={{ $json.phone }}" },
+            { "name": "source", "value": "AAAS Website Direct Booking" }
+          ]
+        }
+      },
+      "name": "HTTP Request - Save to Twenty CRM",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [720, 300]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify($json) }}"
+      },
+      "name": "Respond to Webhook",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1,
+      "position": [960, 300]
+    }
+  ],
+  "connections": {
+    "Webhook - New Booking Inquiry": {
+      "main": [
+        [
+          {
+            "node": "Code - Calculate Price & Format Lead",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code - Calculate Price & Format Lead": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request - Save to Twenty CRM",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request - Save to Twenty CRM": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

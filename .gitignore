@@ -1,0 +1,25 @@
+# Environment / secrets
+.env
+.env.local
+*.secret
+*.key
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data / Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# OS / Editor files
+.DS_Store
+.vscode/
+.idea/
