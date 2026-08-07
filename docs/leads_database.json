@@ -1,0 +1,44 @@
+[
+  {
+    "id": "lead_001",
+    "hotelName": "Pensjonat Syriusz w Karpaczu",
+    "address": "ul. Reymonta 8, 58-540 Karpacz (Osiedle Skalne)",
+    "bookingScore": "8.9 / 10",
+    "reviewsCount": 335,
+    "currentWebsiteStatus": "BRAK WŁASNEJ STRONY (Wyłącznie profil na Booking.com)",
+    "uspKeyAttribute": "Akceptuje zwierzęta bez opłat (0 zł) - ogromna szansa na marketing bezpośredni",
+    "estimatedMonthlyDirectRevenue": 18750.0,
+    "estimatedAnnualOtaCommissionLoss": 40500.0,
+    "recommendedAgencyPackage": "Pakiet 2: PEŁNY ABONAMENT AUTOMATYZACJI 24/7 (1 499 zł/msc MRR)",
+    "salesPitchHook": "Stworzyliśmy dla Pana gotową stronę-demo (bartzx.github.io/Projekt/) z systemem rezerwacji 24/7. Traci Pan rocznie ok. 40 500 zł na prowizjach Booking.com. Oszczędźmy to razem!",
+    "status": "CASE_STUDY_READY_FOR_COMMERCIAL_OUTREACH"
+  },
+  {
+    "id": "lead_002",
+    "hotelName": "Pensjonat Grań",
+    "address": "ul. Kolorowa 3, 58-540 Karpacz",
+    "bookingScore": "7.8 / 10 (Lokalizacja: 9.3 / 10)",
+    "reviewsCount": 714,
+    "currentWebsiteStatus": "BRAK DEDYKOWANEJ WITRYNY (Tylko wizytówka OTA i Facebook)",
+    "uspKeyAttribute": "Świetna lokalizacja przy samym stoku Kolorowa - setki zapytań o dostępność w sezonie",
+    "estimatedMonthlyDirectRevenue": 24000.0,
+    "estimatedAnnualOtaCommissionLoss": 51840.0,
+    "recommendedAgencyPackage": "Pakiet 1: HIGH-TICKET SETUP (5 900 zł jednorazowo) lub MRR 1 499 zł/msc",
+    "salesPitchHook": "Dzięki lokalizacji pod stoiskiem ma Pan dziesiątki telefonów dziennie, które blokują recepcję. Wdrożmy wirtualnego recepcjonistę AI w n8n, który obsłuży 100% zapytań narciarzy w 3 sekundy!",
+    "status": "QUALIFIED_HOT_PROSPECT"
+  },
+  {
+    "id": "lead_003",
+    "hotelName": "L&B Spa w Karpaczu",
+    "address": "ul. Karkonoska 54c, 58-540 Karpacz",
+    "bookingScore": "8.9 / 10 (Personel: 9.6 / 10)",
+    "reviewsCount": 248,
+    "currentWebsiteStatus": "PRZESTARZAŁA WIZYTÓWKA BEZ ONLINE BOOKINGU",
+    "uspKeyAttribute": "Strefa SPA, jacuzzi, sauna i piękny widok - klienci premium o wysokich stawkach dowych",
+    "estimatedMonthlyDirectRevenue": 35000.0,
+    "estimatedAnnualOtaCommissionLoss": 75600.0,
+    "recommendedAgencyPackage": "Pakiet 2: PEŁNY ABONAMENT AUTOMATYZACJI 24/7 (2 499 zł/msc MRR)",
+    "salesPitchHook": "Przy stawkach za pokoje SPA oddaje Pan platformie Booking.com ponad 75 000 zł rocznie. Skopiujemy i unowocześnimy Pana wizytówkę za pomocą open-lovable, dodając moduł bezpośredniej rezerwacji zabiegów SPA i noclegu.",
+    "status": "QUALIFIED_PREMIUM_PROSPECT"
+  }
+]
