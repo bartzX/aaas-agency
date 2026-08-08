@@ -1,6 +1,6 @@
 """
 Testy dla agenta Lead Prospector (wyszukiwanie i kwalifikacja pierwszych klientów komercyjnych)
-oraz pakietu sprzedażowego dla Pensjonatu Grań.
+oraz pakietów sprzedażowych i strategii domknięcia dla Pensjonatu Grań.
 """
 import unittest
 import os
@@ -45,6 +45,15 @@ class TestLeadProspector(unittest.TestCase):
             content = f.read()
             self.assertIn("Kolorowa 3", content)
             self.assertIn("601 584 872", content)
+
+    def test_pensjonat_gran_closing_strategy(self):
+        strategy_path = "docs/STRATEGIA_DOMKNIECIA_PENSJONAT_GRAN.md"
+        self.assertTrue(os.path.exists(strategy_path), "Brak strategii domknięcia dla Pensjonatu Grań")
+        with open(strategy_path, "r", encoding="utf-8") as f:
+            content = f.read()
+            self.assertIn("Hotel Kolorowa", content)
+            self.assertIn("14 dni", content)
+            self.assertIn("3–4 bezpośrednich rezerwacjach", content)
 
 if __name__ == "__main__":
     unittest.main()
