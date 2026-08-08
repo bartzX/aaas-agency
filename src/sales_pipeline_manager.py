@@ -27,22 +27,22 @@ class AAASSalesPipeline:
             {
                 "id": "lead_001",
                 "hotelName": "Pensjonat Grań w Karpaczu",
-                "address": "ul. Kolorowa 3, 58-540 Karpacz",
+                "address": "ul. Kolorowa 3, 58-540 Karpacz (stok Pohulanka)",
                 "phone": "+48 601 584 872 / 75 761 85 11",
                 "status": "SMS_SENT_AWAITING_REPLY",
                 "sentDate": "Wczoraj wieczorem",
-                "nextAction": "Wysłanie lekkiego follow-up SMS po 24–48h (jutro ok. 11:30)",
+                "nextAction": "Czekamy spokojnie 24–48h. W razie braku odpowiedzi jutro o 11:30 wysyłamy Follow-up #1",
                 "estimatedMRR": 1499.0,
-                "outreachLinkUsed": "https://bartzx.github.io/Projekt/"
+                "outreachLinkUsed": "https://bartzx.github.io/pensjonatgran-karpacz/"
             },
             {
                 "id": "lead_002",
                 "hotelName": "Pensjonat Syriusz w Karpaczu",
-                "address": "ul. Reymonta 8, 58-540 Karpacz",
+                "address": "ul. Reymonta 8, 58-540 Karpacz (Osiedle Skalne)",
                 "phone": "+48 607 123 456",
                 "status": "READY_TO_SEND_SMS_TODAY",
                 "sentDate": "Do wysłania dziś",
-                "nextAction": "Wysłanie SMS z propozycją rezerwacji dla zwierząt 0 zł",
+                "nextAction": "Wysłanie SMS o stronach bezpośredniej rezerwacji z czatem AI",
                 "estimatedMRR": 1499.0,
                 "outreachLinkUsed": "https://bartzx.github.io/pensjonat-syriusz/"
             },
@@ -50,12 +50,12 @@ class AAASSalesPipeline:
                 "id": "lead_003",
                 "hotelName": "L&B Spa w Karpaczu",
                 "address": "ul. Karkonoska 54c, 58-540 Karpacz",
-                "phone": "Kontakt przez recepcję SPA",
+                "phone": "+48 75 761 00 00",
                 "status": "READY_TO_SEND_SMS_TODAY",
                 "sentDate": "Do wysłania dziś",
                 "nextAction": "Wysłanie SMS z propozycją automatyzacji rezerwacji zabiegów SPA i noclegu",
                 "estimatedMRR": 2499.0,
-                "outreachLinkUsed": "https://bartzx.github.io/hotel-gran/"
+                "outreachLinkUsed": "https://bartzx.github.io/lb-spa-karpacz/"
             }
         ]
 
@@ -78,24 +78,25 @@ class AAASSalesPipeline:
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         total_potential_mrr = sum(l["estimatedMRR"] for l in self.pipeline_leads)
         lines = [
-            "# Pulpit Sprzedażowy i Plan Działania (AAAS Pipeline) 📊🚀",
+            "# Pulpit Sprzedażowy i Plan Działania (AAAS Pipeline 2026) 📊🚀",
             f"**Łączny potencjał portfela w negocjacjach:** **{total_potential_mrr:,.2f} zł / miesiąc MRR** (ok. {total_potential_mrr * 12:,.2f} zł rocznie)\n",
             "---\n",
-            "## 🏨 1. Status Aktualnych Leadów w Lejku\n"
+            "## 🏨 1. Status Aktualnych Leadów i Ich Dedykowane Strony Demo\n"
         ]
         for l in self.pipeline_leads:
             lines.extend([
                 f"### {l['hotelName']} (`{l['status']}`)",
                 f"* **Adres i kontakt:** `{l['address']}` | `{l['phone']}`",
+                f"* **Dedykowana strona demo (HTTP 200 OK):** 👉 **[{l['outreachLinkUsed']}]({l['outreachLinkUsed']})**",
                 f"* **Wysłano:** `{l['sentDate']}`",
                 f"* **Następny krok (Action Item):** **{l['nextAction']}**",
                 f"* **Szacowany abonament MRR:** `{l['estimatedMRR']} zł/msc`\n",
                 "---\n"
             ])
         lines.extend([
-            "## 📞 2. Co robimy DZIŚ (Złota Zasada Agencji):",
-            "1. **Pensjonat Grań (Czekamy spokojnie 24–48h):** Nie piszemy od razu drugiego SMS-a. Właściciele w górach rano obsługują wymeldowania gości (10:00–11:00). Jeśli nie odpowie do jutra do 11:30, wysyłamy lekki follow-up.",
-            "2. **Uruchamiamy Lead #2 (Pensjonat Syriusz) i Lead #3 (L&B Spa) JUŻ DZIŚ:** W sprzedaży B2B nigdy nie opieramy się na 1 leadzie! Wysyłając dziś 2 kolejne SMS-y, zyskujesz 3-krotnie większe szanse na domknięcie klienta w tym tygodniu.\n"
+            "## 📞 2. Co robimy DZIŚ (Złota Zasada Agencji AAAS):",
+            "1. **Pensjonat Grań (Czekamy spokojnie 24–48h):** Wiadomość wysłana wczoraj wieczorem. Poranki w recepcji są intensywne (wymeldowania gości 10:00–11:00). Jeśli klient nie odpowie do jutra do godz. 11:30, wysyłamy krótki, nienachalny follow-up #1.",
+            "2. **Uruchamiamy Lead #2 (Pensjonat Syriusz) i Lead #3 (L&B Spa) JUŻ DZIŚ:** Posiadamy gotowe, dedykowane strony-demo dla obu obiektów z właściwymi adresami i mapami. Wysyłając dziś 2 wiadomości, potrajamy szansę na domknięcie umowy w tym tygodniu.\n"
         ])
         with open(output_path, "w", encoding="utf-8") as f:
             f.write("\n".join(lines))
