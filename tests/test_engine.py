@@ -1,5 +1,5 @@
 """
-Testy jednostkowe i integracyjne dla silnika agencji AAAS (wraz z Dyrektorem Kreatywnym).
+Testy jednostkowe i integracyjne dla silnika agencji AAAS (8 Agentów AI 2026).
 """
 import unittest
 from src.engine import AAASAgentLoader, AAASWorkflowValidator, AAASOrchestrator
@@ -8,11 +8,13 @@ class TestAAASEngine(unittest.TestCase):
     def test_load_all_agents(self):
         loader = AAASAgentLoader(agents_dir="agents")
         agents = loader.load_all_agents()
-        self.assertGreaterEqual(len(agents), 6, "Powinno załadować min. 6 agentów (w tym Dyrektora Kreatywnego)")
+        self.assertGreaterEqual(len(agents), 8, "Powinno załadować min. 8 agentów AI")
         names = [a.get("name") for a in agents]
         self.assertIn("Lead Prospector Agent", names)
         self.assertIn("AI Receptionist & Booking Automator Agent", names)
         self.assertIn("Creative Director & Luxury Art Director Agent (CD-AI)", names)
+        self.assertIn("PL Conversion Architect & Direct Booking Strategist Agent (PL-CRO-2026)", names)
+        self.assertIn("WCAG 2.2 & Core Web Vitals Performance Auditor Agent", names)
 
     def test_validate_workflows(self):
         validator = AAASWorkflowValidator(workflows_dir="workflows")
@@ -25,7 +27,7 @@ class TestAAASEngine(unittest.TestCase):
         orch = AAASOrchestrator()
         report = orch.run_agency_audit()
         self.assertEqual(report["status"], "active")
-        self.assertEqual(report["agents_loaded"], 6)
+        self.assertGreaterEqual(report["agents_loaded"], 8)
         self.assertGreaterEqual(report["workflows_validated"], 2)
 
 if __name__ == "__main__":
