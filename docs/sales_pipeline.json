@@ -1,0 +1,35 @@
+[
+  {
+    "id": "lead_001",
+    "hotelName": "Pensjonat Grań w Karpaczu",
+    "address": "ul. Kolorowa 3, 58-540 Karpacz",
+    "phone": "+48 601 584 872 / 75 761 85 11",
+    "status": "SMS_SENT_AWAITING_REPLY",
+    "sentDate": "Wczoraj wieczorem",
+    "nextAction": "Wysłanie lekkiego follow-up SMS po 24–48h (jutro ok. 11:30)",
+    "estimatedMRR": 1499.0,
+    "outreachLinkUsed": "https://bartzx.github.io/Projekt/"
+  },
+  {
+    "id": "lead_002",
+    "hotelName": "Pensjonat Syriusz w Karpaczu",
+    "address": "ul. Reymonta 8, 58-540 Karpacz",
+    "phone": "+48 607 123 456",
+    "status": "READY_TO_SEND_SMS_TODAY",
+    "sentDate": "Do wysłania dziś",
+    "nextAction": "Wysłanie SMS z propozycją rezerwacji dla zwierząt 0 zł",
+    "estimatedMRR": 1499.0,
+    "outreachLinkUsed": "https://bartzx.github.io/pensjonat-syriusz/"
+  },
+  {
+    "id": "lead_003",
+    "hotelName": "L&B Spa w Karpaczu",
+    "address": "ul. Karkonoska 54c, 58-540 Karpacz",
+    "phone": "Kontakt przez recepcję SPA",
+    "status": "READY_TO_SEND_SMS_TODAY",
+    "sentDate": "Do wysłania dziś",
+    "nextAction": "Wysłanie SMS z propozycją automatyzacji rezerwacji zabiegów SPA i noclegu",
+    "estimatedMRR": 2499.0,
+    "outreachLinkUsed": "https://bartzx.github.io/hotel-gran/"
+  }
+]
