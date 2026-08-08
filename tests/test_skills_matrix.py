@@ -1,5 +1,5 @@
 """
-Testy dla matrycy 100+ nowych umiejętności web designu, konwersji i automatyzacji (AAAS Skills Matrix).
+Testy dla matrycy 150+ nowych umiejętności web designu, konwersji, 3D i automatyzacji (AAAS Next-Gen Skills Matrix).
 """
 import unittest
 from src.web_design_skills_matrix import AAASWebDesignSkillsMatrix
@@ -8,21 +8,22 @@ class TestAAASSkillsMatrix(unittest.TestCase):
     def setUp(self):
         self.matrix = AAASWebDesignSkillsMatrix()
 
-    def test_minimum_100_skills_requirement(self):
-        report = self.matrix.verify_all_101_skills_active()
-        self.assertGreaterEqual(report["totalSkillsVerified"], 100, f"Znaleziono tylko {report['totalSkillsVerified']} umiejętności!")
+    def test_minimum_150_skills_requirement(self):
+        report = self.matrix.verify_all_150_skills_active()
+        self.assertGreaterEqual(report["totalSkillsVerified"], 150, f"Znaleziono tylko {report['totalSkillsVerified']} umiejętności!")
         self.assertTrue(report["passedMinimum100Requirement"])
-        self.assertEqual(report["certification"], "100% VERIFIED - 101 WEB DESIGN & AGENCY SKILLS ACTIVE")
+        self.assertTrue(report["passedAdvanced150Requirement"])
+        self.assertEqual(report["certification"], "100% VERIFIED - 150 NEXT-GEN WEB DESIGN & AGENCY SKILLS ACTIVE")
 
-    def test_specific_core_skills(self):
-        blik = self.matrix.get_skill_by_id("022")
-        self.assertIn("BLIK", blik["name"])
+    def test_specific_next_gen_skills(self):
+        ota_cut = self.matrix.get_skill_by_id("103")
+        self.assertIn("Price Parity", ota_cut["name"])
 
-        fable = self.matrix.get_skill_by_id("057")
-        self.assertIn("Fable 5", fable["name"])
+        higgs = self.matrix.get_skill_by_id("121")
+        self.assertIn("Higgsfield CLI", higgs["name"])
 
-        ical = self.matrix.get_skill_by_id("078")
-        self.assertIn("Zero Double-Booking", ical["name"])
+        scale = self.matrix.get_skill_by_id("150")
+        self.assertIn("Autonomous Scaling", scale["name"])
 
 if __name__ == "__main__":
     unittest.main()
